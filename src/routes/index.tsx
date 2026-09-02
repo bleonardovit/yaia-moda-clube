@@ -1,11 +1,17 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Crown, Sparkles, Tag, ShieldCheck, ArrowRight } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
-import heroImg from "@/assets/hero.jpg";
-import produto1 from "@/assets/produto-1.jpg";
-import produto2 from "@/assets/produto-2.jpg";
-import produto3 from "@/assets/produto-3.jpg";
-import produto4 from "@/assets/produto-4.jpg";
+import heroAsset from "@/assets/hero.jpg.asset.json";
+import produto1Asset from "@/assets/produto-1.jpg.asset.json";
+import produto2Asset from "@/assets/produto-2.jpg.asset.json";
+import produto3Asset from "@/assets/produto-3.jpg.asset.json";
+import produto4Asset from "@/assets/produto-4.jpg.asset.json";
+
+const heroImg = heroAsset.url;
+const produto1 = produto1Asset.url;
+const produto2 = produto2Asset.url;
+const produto3 = produto3Asset.url;
+const produto4 = produto4Asset.url;
 
 const CHECKOUT_URL = "https://invoice.infinitepay.io/plans/yaia_moda/JE1AU8URMU";
 
