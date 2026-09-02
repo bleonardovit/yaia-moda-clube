@@ -56,10 +56,10 @@ const steps = [
 ];
 
 const products = [
-  { img: produto1, name: "Vestido Slip Cetim", normal: "R$ 189,90", clube: "R$ 72,00" },
-  { img: produto2, name: "Blazer Alfaiataria Nude", normal: "R$ 259,90", clube: "R$ 98,00" },
-  { img: produto3, name: "Saia Midi Linho", normal: "R$ 159,90", clube: "R$ 65,00" },
-  { img: produto4, name: "Camisa Seda Preta", normal: "R$ 199,90", clube: "R$ 79,00" },
+  { img: produto1, name: "Conjunto Curto Peplum Azul", normal: "R$ 89,90", clube: "R$ 45,00" },
+  { img: produto2, name: "Conjunto Curto Texturizado Preto", normal: "R$ 89,90", clube: "R$ 45,00" },
+  { img: produto3, name: "Conjunto Longo Listrado Marsala", normal: "R$ 119,90", clube: "R$ 60,00" },
+  { img: produto4, name: "Conjunto Longo Azul Serenity", normal: "R$ 119,90", clube: "R$ 60,00" },
 ];
 
 function LandingPage() {
