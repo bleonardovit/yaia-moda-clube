@@ -1,11 +1,17 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Crown, Sparkles, Tag, ShieldCheck, ArrowRight } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
-import heroImg from "@/assets/hero.jpg";
-import produto1 from "@/assets/produto-1.jpg";
-import produto2 from "@/assets/produto-2.jpg";
-import produto3 from "@/assets/produto-3.jpg";
-import produto4 from "@/assets/produto-4.jpg";
+import heroAsset from "@/assets/hero.jpg.asset.json";
+import produto1Asset from "@/assets/produto-1.jpg.asset.json";
+import produto2Asset from "@/assets/produto-2.jpg.asset.json";
+import produto3Asset from "@/assets/produto-3.jpg.asset.json";
+import produto4Asset from "@/assets/produto-4.jpg.asset.json";
+
+const heroImg = heroAsset.url;
+const produto1 = produto1Asset.url;
+const produto2 = produto2Asset.url;
+const produto3 = produto3Asset.url;
+const produto4 = produto4Asset.url;
 
 const CHECKOUT_URL = "https://invoice.infinitepay.io/plans/yaia_moda/JE1AU8URMU";
 
@@ -50,10 +56,10 @@ const steps = [
 ];
 
 const products = [
-  { img: produto1, name: "Vestido Slip Cetim", normal: "R$ 189,90", clube: "R$ 72,00" },
-  { img: produto2, name: "Blazer Alfaiataria Nude", normal: "R$ 259,90", clube: "R$ 98,00" },
-  { img: produto3, name: "Saia Midi Linho", normal: "R$ 159,90", clube: "R$ 65,00" },
-  { img: produto4, name: "Camisa Seda Preta", normal: "R$ 199,90", clube: "R$ 79,00" },
+  { img: produto1, name: "Conjunto Curto Peplum Azul", normal: "R$ 89,90", clube: "R$ 45,00" },
+  { img: produto2, name: "Conjunto Curto Texturizado Preto", normal: "R$ 89,90", clube: "R$ 45,00" },
+  { img: produto3, name: "Conjunto Longo Listrado Marsala", normal: "R$ 119,90", clube: "R$ 60,00" },
+  { img: produto4, name: "Conjunto Longo Azul Serenity", normal: "R$ 119,90", clube: "R$ 60,00" },
 ];
 
 function LandingPage() {
