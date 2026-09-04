@@ -13,7 +13,7 @@ const produto2 = produto2Asset.url;
 const produto3 = produto3Asset.url;
 const produto4 = produto4Asset.url;
 
-const CHECKOUT_URL = "https://invoice.infinitepay.io/plans/yaia_moda/JE1AU8URMU";
+const CHECKOUT_URL = "https://mpago.la/2NKrY8G";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -255,7 +255,7 @@ function LandingPage() {
                 Assinar Agora e Aproveitar
               </a>
               <p className="mt-4 text-[11px] text-muted-foreground">
-                Pagamento seguro via InfinitePay · Cancele quando quiser
+                Pagamento seguro via Mercado Pago · Cancele quando quiser
               </p>
             </div>
           </Reveal>
@@ -271,9 +271,6 @@ function LandingPage() {
           <p className="text-xs text-muted-foreground">
             Yaia Moda © 2024 - Todos os direitos reservados
           </p>
-          <Link to="/sucesso" className="text-xs text-muted-foreground underline-offset-4 hover:underline">
-            Já assinei · Acessar página de boas-vindas
-          </Link>
         </div>
       </footer>
     </div>
